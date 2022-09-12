@@ -61,7 +61,7 @@
 </details>
 
 <details>
-<summary> 네트워크의 구조라고도 불리는 토폴로지를 알아두어야 하는 이유는 무엇일까요? </summary>
+<summary> 네트워크의 구조라고도 불리는 토폴로지를 알아두어야 하는 이유는 무엇인가요? </summary>
 <div markdown="1">
   <br>
  
@@ -98,7 +98,7 @@
 
 
 <details>
-<summary> ping(Packet INternet Groper)이란 무엇입니까? </summary>
+<summary> ping(Packet INternet Groper)이란 무엇인가요? </summary>
 <div markdown="1">
   <br>
 
@@ -161,7 +161,7 @@ OSI 7계층은 TCP/IP 계층과 다르게 애플리케이션계층을 링크계�
 </details>
 
 <details>
-<summary> TIME_WAIT이 무엇인지, 왜 필요한지 설명해 주세요. </summary>
+<summary> TIME_WAIT를 설명하고, 왜 필요한지 설명해 주세요. </summary>
 <div markdown="1">
   <br>
 
@@ -174,7 +174,7 @@ CentOS와 우분투는 60초, 윈도우는 4분으로 설정되어 있으며 운
 
 ## 네트워크 기기
 <details>
-<summary> L4스위치와 L7스위치의 공통점은 무엇이고, 차이점은 무엇인가요? </summary>
+<summary> L4스위치와 L7스위치의 공통점과 차이점은 무엇인가요? </summary>
 <div markdown="1">
   <br>
 
@@ -184,7 +184,104 @@ L4스위치는 인터넷 계층을 처리하는 기기로 스트리밍 관련 �
 반면 L7스위치(=로드밸런서)는 `IP`, `포트` 외에도 `URL`, `HTTP 헤더`, `쿠키` 등을 기반으로 트래픽을 분산합니다.
 
 1. 공통점 <br>
-둘 다 헬스 체크를 통해 정상적인 서버 또는 비정상적인 서버를 판별하는데, 헬스 체크는 전송 주기와 재전송 횟수 등을 설정한 이후 반복적으로 서버에 요청을 보내는 것을 말합니다.
+둘 다 헬스 체크를 통해 정상적인 서버 또는 비정상적인 서버를 판별하는데, 헬스 체크는 전송 주기와 재전송 횟수 등을 설정한 후 반복적으로 서버에 요청을 보내는 것을 말합니다.
+  
+</div>
+</details>
+
+
+## IP 주소
+<details>
+<summary>  ARP(Address Resolution Protocol)란 무엇인가요? </summary>
+<div markdown="1">
+  <br>
+
+가상 주소인 IP를 실제 주소인 MAC 주소로 변환하는 프로토콜입니다. <br>
+ARP Request 브로드캐스트를 보내서 IP 주소에 해당하는 것을 찾고, ARP reply 유니캐스트를 통해 MAC주소를 반환받아 MAC주소를 알아냅니다.
+  
+</div>
+</details>
+
+<details>
+<summary>  게이트웨이(Gateway)란 무엇인가요? </summary>
+<div markdown="1">
+  <br>
+
+서로 다른 `통신망`, `프로토콜`을 사용하는 네트워크 간의 통신이 가능하게 하는 관문 역할의 컴퓨터나 소프트웨어를 말합니다.
+  
+</div>
+</details>
+
+<details>
+<summary>  DHCP(Dynamic Host Configuration Protocol)란 무엇인가요? </summary>
+<div markdown="1">
+  <br>
+
+IP 주소 및 기타 통신 매개변수를 자동으로 할당하기 위한 네트워크 관리 프로토콜입니다. <br>
+네트워크 장치의 IP주소를 수동으로 설정할 필요 없이 인터넷에 접속할 때마다 자동으로 IP 주소를 할당할 수 있습니다.
+  
+</div>
+</details>
+
+<details>
+<summary>  NAT(Network Address Translation)란 무엇인가요? </summary>
+<div markdown="1">
+  <br>
+
+사설 IP를 공인IP로 변환하거나 공인 IP를 사설 IP로 변환합니다. <br>
+여러 대의 호스트가 하나의 공인 IP주소를 이용하여 인터넷에 접속하기 위해 사용합니다. <br>
+
+- 장점 : IPv4의 주소 부족 문제를 보완합니다. 내부 네트워크 IP 주소와 외부 IP주소를 다르게 유지하기 때문에 내부 네트워크에 대한 보안이 가능합니다. <br>
+- 단점 : 호스트 숫자에 따라 접속 속도가 느려질 수 있습니다.
+  
+</div>
+</details>
+
+## HTTP
+<details>
+<summary> RTT(Round Trip Time)란 무엇인가요?  </summary>
+<div markdown="1">
+  <br>
+
+패킷이 목적지에 도달하고 나서 다시 출발지로 돌아오기까지 걸리는 시간, 즉 패킷 왕복 시간을 말합니다.
+  
+</div>
+</details>
+
+<details>
+<summary> HTTP/2를 설명하고, 장점 두 가지를 설명해 보세요.  </summary>
+<div markdown="1">
+  <br>
+
+HTTP/2는 HTTP/1.x보다 지연 시간을 줄이고 응답 시간을 더 빠르게 할 수 있으며 멀티플렉싱, 헤더 압축, 서버 푸시, 요청의 우선순위 처리를 지원하는 프로토콜입니다. <br>
+
+- 장점 1) 멀티 플렉싱 <br>
+멀티 플렉싱이란 여러 개의 스트림을 사용하여 송수신하는 것입니다. 특정 스트림의 패킷이 손실되었다고 하더라도 해당 스트림에만 영향을 미치고 나머지 스트림은 멀쩡하게 동작할 수 있습니다. <br>
+- 장점 2) 서버 푸시 <br>
+클라이언트 요청 없이 서버가 바로 리소스를 푸시하는 것을 말합니다. html에는 css, js파일들이 포함되기 마련인데 html을 읽으면서 그 안에 들어있던 css 파일을 서버에서 푸시하여 클라이언트에 먼저 줄 수 있습니다.
+  
+</div>
+</details>
+
+<details>
+<summary> SSL/TLS이란 무엇인가요?  </summary>
+<div markdown="1">
+  <br>
+
+전송 계층에서 보안을 제공하는 프로토콜입니다. <br>
+ 클라이언트와 서버가 통신할 때 SSL/TLS를 통해 제3자가 메시지를 도청하거나 변조하지 못하도록 합니다. 즉, 인터셉터를 방지할 수 있습니다.
+  
+</div>
+</details>
+
+<details>
+<summary> HTTPS를 구축하는 방법을 세 가지를 설명해 보세요.  </summary>
+<div markdown="1">
+  <br>
+  
+1. 직접 `CA`에서 구매한 인증키를 기반으로 HTTPS 서비스를 구축합니다. <br>
+2. 서버 앞단에 HTTPS를 제공하는 `로드밸런서`를 배치합니다. <br>
+3. 서버 앞단에 HTTPS를 제공하는 `CDN`를 구축합니다. <br>
   
 </div>
 </details>
