@@ -64,8 +64,8 @@ Alibaba Cloud, AWS(Amazon Web Services), Google Cloud, IBM Cloud, Microsoft Azur
 </details>
 
 ## 📎 하이브리드 클라우드
-[하이브리드 클라우드](https://www.redhat.com/ko/topics/cloud-computing/what-is-hybrid-cloud)는온프레미스 환경에 구축한 프라이빗 클라우드와 퍼블릭 클라우드 서비스를 같이 섞어서 사용하는 것을 말합니다. <br>
-단일 IT환경처럼 보이지만, 실제로는 여러 환경이 LAN, WAN, VPN 또는 API를 통해 연결된 상태입니다.<br>
+[하이브리드 클라우드](https://www.redhat.com/ko/topics/cloud-computing/what-is-hybrid-cloud)는 온프레미스 환경에 구축한 프라이빗 클라우드와 퍼블릭 클라우드 서비스를 같이 섞어서 사용하는 것을 말합니다. <br>
+단일 IT 환경처럼 보이지만 실제로는 여러 환경이 LAN, WAN, VPN 또는 API를 통해 연결된 상태입니다.<br>
 애플리케이션을 개별적이지만 연결되어 있는 다중 환경 내외로 이동할 수 있는 경우 하이브리드 클라우드로 볼 수 있으며, 사실 상 거의 모든 IT 시스템이 이러한 추세입니다. 적어도 이러한 환경 중 일부는 온디맨드로 확장할 수 있는 통합 IT 리소스에서 제공되어야 하고, 모든 환경이 통합 관리 및 [오케스트레이션](https://www.redhat.com/ko/topics/automation/what-is-orchestration) 플랫폼을 사용해 단일 환경처럼 관리되어야 합니다.
 
 <img width="635" alt="스크린샷 2022-09-27 오후 4 43 39" src="https://user-images.githubusercontent.com/65750746/192464952-36f70dbf-b80f-4cd2-8e82-c25fc49f5070.png">
@@ -82,8 +82,8 @@ Alibaba Cloud, AWS(Amazon Web Services), Google Cloud, IBM Cloud, Microsoft Azur
 ## 📎 서버리스 
 [서버리스(serverless)](https://www.redhat.com/ko/topics/cloud-native-apps/what-is-serverless)란 개발자가 서버를 관리할 필요 없이 애플리케이션을 빌드하고 실행할 수 있도록 하는 클라우드 네이티브 개발 모델입니다.<br>
 서버리스 모델에도 서버가 존재하긴 하지만, 애플리케이션 개발에서와 달리 `추상화`되어 있습니다. <br>
-->클라우드 제공업체가 서버 인프라에 대한 프로비저닝, 유지 관리, 스케일링 등의 일상적인 작업을 처리하며, <br>
-->개발자는 배포를 위해 코드를 컨테이너에 패키징하기만 하면 됩니다.<br>
+-> 클라우드 제공업체가 서버 인프라에 대한 프로비저닝, 유지 관리, 스케일링 등의 일상적인 작업을 처리하며 <br>
+-> 개발자는 배포를 위해 코드를 컨테이너에 패키징하기만 하면 됩니다.<br>
 서버리스 애플리케이션은 배포되고 나면 필요에 따라 `자동으로 스케일 업되거나 스케일 다운`됩니다. 퍼블릭 클라우드 제공업체의 서버리스 오퍼링은 일반적으로 `이벤트 기반 실행 모델`을 통해 온디맨드로 미터링됩니다. 그러므로 서버리스 기능이 유휴 상태일 때는 아무런 비용도 들지 않습니다. 
 
 <details>
@@ -91,7 +91,7 @@ Alibaba Cloud, AWS(Amazon Web Services), Google Cloud, IBM Cloud, Microsoft Azur
 <div markdown="1">
   <br>
   
-  서비스로서의 기능(FaaS)은 이벤트 기반 컴퓨팅 실행 모델로, 개발자가 작성하는 로직은 플랫폼에서 전체를 관리하는 컨테이너로 배포된 후 온디맨드로 실행됩니다. BaaS와 달리 FaaS는 사전 작성된 서비스 라이브러리에 의존하지 않고 사용자 정의 애플리케이션을 생성하는 개발자에게 더 많은 제어 권한을 제공합니다. <br>
+  서비스로서의 기능(FaaS)은 <b>이벤트 기반 컴퓨팅 실행 모델</b>로, 개발자가 작성하는 로직은 플랫폼에서 전체를 관리하는 컨테이너로 배포된 후 온디맨드로 실행됩니다. BaaS와 달리 FaaS는 사전 작성된 서비스 라이브러리에 의존하지 않고 사용자 정의 애플리케이션을 생성하는 개발자에게 더 많은 제어 권한을 제공합니다. <br>
   FaaS를 활용하면 `개발자는 API를 통해 서버리스 애플리케이션을 호출`할 수 있고, `FaaS 제공업체는 이를 API 게이트웨이를 통해 처리`합니다. <br>
   <br>
   코드는 클라우드 제공업체가 관리하는 컨테이너에 배포됩니다. 이러한 컨테이너에는 다음과 같은 특징이 있습니다.
@@ -117,7 +117,7 @@ Alibaba Cloud, AWS(Amazon Web Services), Google Cloud, IBM Cloud, Microsoft Azur
 프로세서는 실행할 수 있는 일정량의 ‘지시사항’ 또는 ‘명령'을 이해할 수 있으며, 명령은 해당 칩의 디자이너에 따라 결정됩니다. <br>CISC 프로세서는 RISC보다 지시사항이 많습니다.
 
 <img width="424" alt="스크린샷 2022-09-27 오후 5 34 33" src="https://user-images.githubusercontent.com/65750746/192476147-5e6b1955-af73-4451-95ba-ba3e221e9da9.png">
-RISC 프로세서의 기본 개념은 프로세서가 많은 작업을 수행하면 안된다는 것입니다. 수많은 작업을 수행하는 것 대신 기본 작업을 빠르게 수행하는 것이 중요합니다. <br>
+RISC 프로세서의 기본 개념은 프로세서가 많은 작업을 수행하면 안된다는 것입니다. 수많은 작업을 수행하는 것 대신 기본 작업을 빠르게 수행하는 것이 중요합니다.
 CISC에서는 복잡한 작업을 수행할 수 있지만 시간이 좀 걸릴 수 있습니다.  <br>
 최근 여론에 따르면 요즘엔 서로의 장점을 배워 나갔기 때문에 CISC, RISC의 경계가 희미하다고 합니다.<br>
 <br>
@@ -130,7 +130,7 @@ ARM은 IP를 라이선스하고 있습니다. 즉 다른 회사들이 ARM에 돈
 덕분에 더 빠른 스피드, 길어진 배터리 수명이 가능하며 인텔이 혁신하기를 기다릴 필요도 없습니다. 
 
 ## 📎 베어메탈 서버
-최근 IT 인프라 전체를 클라우드로 이전하는 '클라우드 올인’ 기업들이 늘어나고 있습니다. 하지만 데이터베이스와 같은 성능이나 운영환경에 민감한 부분은 선뜻 클라우드를 도입할 수 없어 일부 기업들은 물리 서버에 구축하는 하이브리드 클라우드 전략을 취하기도 했습니다. 만약 클라우드 올인과 하이브리드 클라우드 중 어떤 방식으로 IT 인프라를 구축하는 게 적합한지 고민 중이라면, 베어메탈 서버(Bare Metal Server)를 대안으로써 고려해볼 수 있습니다.<br>
+최근 IT 인프라 전체를 클라우드로 이전하는 '클라우드 올인’ 기업들이 늘어나고 있습니다. 하지만 데이터베이스와 같은 성능이나 운영환경에 민감한 부분은 선뜻 클라우드를 도입할 수 없어 일부 기업들은 물리 서버에 구축하는 하이브리드 클라우드 전략을 취하기도 했습니다. 만약 클라우드 올인과 하이브리드 클라우드 중 어떤 방식으로 IT 인프라를 구축하는 게 적합한지 고민 중이라면, 베어메탈 서버(Bare Metal Server)를 대안으로 고려해볼 수 있습니다.<br>
 <br>
 ‘베어메탈(Bare Metal)’이란 용어는 원래 `하드웨어 상에 어떤 소프트웨어도 설치되어 있지 않은 상태`를 뜻합니다. <br>
 즉, [베어메탈 서버](https://library.gabia.com/contents/infrahosting/9300/)는 가상화를 위한 하이퍼바이저 OS 없이 물리 서버를 그대로 제공하는 것을 말합니다. 따라서 `하드웨어에 대한 직접 제어 및 OS 설정까지 가능`합니다.
@@ -142,10 +142,10 @@ ARM은 IP를 라이선스하고 있습니다. 즉 다른 회사들이 ARM에 돈
 <div markdown="1">
   <br>
   
-  [vmware](https://www.vmware.com/kr/topics/glossary/content/private-cloud.html) <br>
-  [redhat](https://www.redhat.com/ko/topics/cloud-computing/what-is-multitenancy) <br>
-  [paloaltonetworks](https://www.paloaltonetworks.co.kr/cyberpedia/what-is-a-cloud-native-security-platform) <br>
-  [gabia](https://library.gabia.com/contents/infrahosting/9300/) <br>
-  [nomadcoder YouTube](https://www.youtube.com/watch?v=G-fJJ-OHLDw&ab_channel=%EB%85%B8%EB%A7%88%EB%93%9C%EC%BD%94%EB%8D%94NomadCoders)<br>
+  - [vmware](https://www.vmware.com/kr/topics/glossary/content/private-cloud.html) <br>
+  - [redhat](https://www.redhat.com/ko/topics/cloud-computing/what-is-multitenancy) <br>
+  - [paloaltonetworks](https://www.paloaltonetworks.co.kr/cyberpedia/what-is-a-cloud-native-security-platform) <br>
+  - [gabia](https://library.gabia.com/contents/infrahosting/9300/) <br>
+  - [nomadcoder YouTube](https://www.youtube.com/watch?v=G-fJJ-OHLDw&ab_channel=%EB%85%B8%EB%A7%88%EB%93%9C%EC%BD%94%EB%8D%94NomadCoders)<br>
 </div>
 </details>
