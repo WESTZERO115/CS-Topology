@@ -64,7 +64,7 @@ Alibaba Cloud, AWS(Amazon Web Services), Google Cloud, IBM Cloud, Microsoft Azur
 </details>
 
 ## 📎 하이브리드 클라우드
-[하이브리드 클라우드](https://www.redhat.com/ko/topics/cloud-computing/what-is-hybrid-cloud)는 온프레미스 환경에 구축한 프라이빗 클라우드와 퍼블릭 클라우드 서비스를 같이 섞어서 사용하는 것을 말합니다. <br>
+[하이브리드 클라우드](https://www.redhat.com/ko/topics/cloud-computing/what-is-hybrid-cloud)는 온프레미스 환경에 구축한 프라이빗 클라우드와 퍼블릭 클라우드를 같이 섞어서 사용하는 것으로 이들 사이에 통합이나 오케스트레이션이 특정 방식으로 이루어집니다. <br>
 단일 IT 환경처럼 보이지만 실제로는 여러 환경이 LAN, WAN, VPN 또는 API를 통해 연결된 상태입니다.<br>
 애플리케이션을 개별적이지만 연결되어 있는 다중 환경 내외로 이동할 수 있는 경우 하이브리드 클라우드로 볼 수 있으며, 사실 상 거의 모든 IT 시스템이 이러한 추세입니다. 적어도 이러한 환경 중 일부는 온디맨드로 확장할 수 있는 통합 IT 리소스에서 제공되어야 하고, 모든 환경이 통합 관리 및 [오케스트레이션](https://www.redhat.com/ko/topics/automation/what-is-orchestration) 플랫폼을 사용해 단일 환경처럼 관리되어야 합니다.
 
@@ -72,7 +72,7 @@ Alibaba Cloud, AWS(Amazon Web Services), Google Cloud, IBM Cloud, Microsoft Azur
 
 
 ## 📎 멀티 클라우드
-[멀티 클라우드](https://www.redhat.com/ko/topics/cloud-computing/what-is-multicloud)는 2곳 이상의 클라우드 공급업체가 제공하는 2개 이상의 퍼블릭 또는 프라이빗 클라우드로 구성된 클라우드 접근 방식입니다. <br>모든 하이브리드 클라우드는 멀티클라우드이지만, 모든 멀티클라우드가 하이브리드 클라우드인 것은 아닙니다. <br>멀티클라우드가 어떤 형태로든 통합 또는 오케스트레이션되어 연결되면 하이브리드 클라우드가 됩니다.
+[멀티 클라우드](https://www.redhat.com/ko/topics/cloud-computing/what-is-multicloud)는 여러 벤더가 제공하는 동일한 유형(퍼블릭 또는 프라이빗)의 클라우드를 2개 이상 배포하는 것입니다. <br>모든 하이브리드 클라우드는 멀티클라우드이지만, 모든 멀티클라우드가 하이브리드 클라우드인 것은 아닙니다. <br>멀티클라우드가 어떤 형태로든 통합 또는 오케스트레이션되어 연결되면 하이브리드 클라우드가 됩니다.
 
 ## 📎 온프레미스(IDC)
 기업이 자체 데이터센터를 보유하고 그 안에 서버와 네트워크 장비 등을 구축하여 자체적으로 운영하는 방식입니다. (데이터센터 rack을 빌리기도 합니다.) <br>
