@@ -1,4 +1,45 @@
 <details>
+<summary> ----- 용어 정확하게 알아두자 ----- </summary>
+<div markdown="1">
+        
+  01. <b>`호스트(Host)`</b> <br>
+  네트워크에 연결된 서버, 컴퓨터, 스마트폰, 라우터 등을 가리켜 말합니다.
+  
+  02. <b>`레지스트리(Registry)`</b> <br>
+  인터넷 전체에서 공통으로 사용되는 이름이나 번호를 일원화 관리하는 조직을 말합니다.
+  
+  03. <b>`도메인`</b> <br>
+  dd
+  04. <b>`도메인 이름`</b> <br>
+  dd
+  05. <b>`라벨`</b> <br>
+  dd
+  06. <b>`존(Zone)`</b> <br>
+  위임에 의해 관리하게 된 범위를 말합니다.
+  07. <b>`Name Resolution`</b> <br>
+  08. <b>`ccTLD`</b> <br>
+  09. <b>`gTLD`</b> <br>
+  10. <b>`사이버 스쿼팅(Cyber squatting)`</b> <br>
+  11. <b>`레지스트라`</b> <br>
+  12. <b>`리셀러`</b> <br>
+  13. <b>`ICANN(아이칸)`</b> <br>
+  14. <b>`Name Resolution(이름 풀이)`</b> <br>
+  15. <b>`iterative resolution(반복에 의한 풀이)`</b> <br>
+  16. <b>`위임 정보`</b> <br>
+  17. <b>`스터브 리졸버 == DNS 클라이언트`</b> <br>
+  18. <b>`풀 리졸버 == 캐시 DNS 서버, 참조 서버, 네임 서버, DNS 서버`</b> <br>
+  19. <b>`권한이 있는 서버 == 권한 DNS 서버, 존 서버, 네임 서버, DNS 서버`</b> <br>
+  20. <b>`힌트 파일 (hint file)`</b> <br>
+  21. <b>`프라이밍 (priming)`</b> <br>
+  22. <b>`네거티브 캐시`</b> <br>
+  23. <b>`존 전송`</b> <br>
+  24. <b>`ㅊ`</b> <br>
+  25. <b>`ㄹ`</b> <br>
+  
+</div>
+</details>
+
+<details>
 <summary> DNS(Domain Name System)란 무엇인가요? </summary>
 <div markdown="1">
   <br>
