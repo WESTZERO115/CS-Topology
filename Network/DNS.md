@@ -27,6 +27,7 @@
   12. <b>`리셀러`</b> <br>
   
   <img src="https://user-images.githubusercontent.com/65750746/212465866-e15532b7-b209-47f7-ae46-726fe527f93a.png" width="500" height="200"/> <br>
+  
   13. <b>`ICANN(아이칸)`</b> <br>
   도메인 이름이나 IP 주소 등 인터넷 식별자를 세계적으로 관리하고 조정하는 조직입니다.
   14. <b>`iterative resolution(반복에 의한 풀이)`</b> <br>
@@ -38,6 +39,7 @@
   18. <b>`권한이 있는 서버 == 권한 DNS 서버, 존 서버, 네임 서버, DNS 서버`</b> <br>
   
   <img src="https://user-images.githubusercontent.com/65750746/212465746-57570e76-ebaf-4e8e-8533-68a837aec344.jpeg" width="500" height="250"/> <br>
+  
   19. <b>`힌트 파일 (hint file)`</b> <br>
   DNS에서 처음부터 가지고 있는 루트 서버 리스트입니다.
   20. <b>`프라이밍 (priming)`</b> <br>
@@ -45,9 +47,7 @@
   21. <b>`네거티브 캐시`</b> <br>
   존재하지 않는다라는 결과도 캐시하는 것을 말합니다. 원하는 레코드 리소스가 존재하지 않는다라는 결과를 캐시합니다.
   22. <b>`존 전송`</b> <br>
-  23. <b>`ㅊ`</b> <br>
-  24. <b>`ㄹ`</b> <br>
-  
+  프라이머리 서버가 세컨더리 서버에게 존에 관한 정보를 전송하는 것을 말합니다.
 </div>
 </details>
 
@@ -186,19 +186,6 @@
 </div>
 </details>    
     
-<details>
-<summary> 각 리소스 레코드에는 어떤 내용이 담겨 있죠? </summary>
-<div markdown="1">
-  <br>
-        
- - <b>NS 레코드</b> : 해당 존의 권한이 있는 서버의 호스트 이름이 지정되어 있습니다. (위임에 관한 정보)
- - <b>SOA 레코드</b> : 존 자체에 관한 정보가 담겨 있습니다.
- - <b>MX 레코드</b> : 해당 도메인 이름으로 보낸 전자 메일의 전송처와 우선도가 지정되어 있습니다. 
- - <b>A 레코드</b> : 있습니다. 
- - <b>AAAA 레코드</b> : 있습니다. 
- - <b>CNAME 레코드</b> : 있습니다. 
-</div>
-</details>
  
 <details>
 <summary> 네거티브 캐시가 무엇인지 설명해 주세요. </summary>
