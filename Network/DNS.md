@@ -1,5 +1,5 @@
 <details>
-<summary> ----- 용어 정확하게 알아두자 ----- </summary>
+        <summary> 용어 <div markdown="1"><b>정확하게 알아두기</b> </div> </summary>
 <div markdown="1">
         
   01. <b>`호스트(Host)`</b> <br>
