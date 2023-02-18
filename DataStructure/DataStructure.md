@@ -79,6 +79,7 @@ top 변수는 스택이 비어있으면 -1의 값을 가집니다. <br>
 큐(Queue)는 먼저 들어간 데이터가 먼저 나오는 성질인 (FIFO, First In First Out) 자료구조입니다. <br>
 
 enqueue()함수와 rear 변수를 사용해서 자료를 삽입하고, dequeue()함수와 front 변수를 사용해서 자료를 삭제합니다. <br>
+<br>
 -> 파이썬의 경우 deque 자료구조를 활용하며, `append()`와 `popleft()`함수를 이용합니다.
   
   <br> 
